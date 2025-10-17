@@ -1,0 +1,8 @@
+"Namn","Konto","Avdelning","SenasteInloggad","DagarSedanInloggning","Enabled"
+"Test User","test_user","IT","2025-06-15 10:00","125","False"
+"Backup Admin Account","admin_backup","IT","2025-07-01 02:00","109","False"
+"Nils Nilsson","nnils","Operations","2025-08-15 09:00","64","True"
+"Erik Olsson","eolsson","Sales","2025-08-15 09:00","64","True"
+"Maria Berg","mberg","Finance","2025-08-20 14:30","58","True"
+"Johan Svensson","jsvensson","Operations","2025-08-25 08:15","54","True"
+"Quentin Quentinsson","qquentin","Sales","2025-09-01 10:00","47","True"
