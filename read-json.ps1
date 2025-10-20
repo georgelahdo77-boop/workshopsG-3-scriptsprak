@@ -1,13 +1,7 @@
 # read-json.ps1
 # Skriver input för att få rätt svenska bokstäver
-
-Set-StrictMode -Version Latest
-[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
-$OutputEncoding = [System.Text.UTF8Encoding]::new($false)
-$PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'
-$PSDefaultParameterValues['Export-Csv:Encoding'] = 'utf8'
-
 # Hjälpfunktion: Datumtolkning med try/catch
+
 function Parse-Date {
     param([string]$s)
 
