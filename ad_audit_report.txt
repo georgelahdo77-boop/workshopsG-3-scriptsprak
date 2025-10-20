@@ -1,0 +1,63 @@
+ACTIVE DIRECTORY AUDIT
+======================
+
+Domän:         techcorp.local
+Forest:        techcorp.local
+Exportdatum:   2025-10-14 06:00
+Genererat:     2025-10-20 10:46
+
+Översikt
+--------
+Totala användare:  31
+Totala datorer:    20
+
+Executive Summary (varningar)
+-----------------------------
+- konton som löper ut inom 30 dagar: 2
+- Datorer som inte setts på 30+ dagar: 4
+- Användare med lösenord äldre än 90 dagar: 11
+
+Detaljer: konton som löper ut ≤30 dagar
+---------------------------------------
+displayName     samAccountName GårUT      Dagarkvar
+-----------     -------------- -----      ---------
+Johan Johansson jjohan         2025-10-30        10
+Erik Eriksson   eerik          2025-11-01        12
+
+Detaljer: Datorer ej sedda på 30+ dagar
+---------------------------------------
+name          site         SenastSedd       DagarSedan
+----          ----         ----------       ----------
+OLD-PC-001    Huvudkontor  2025-07-15 10:00         97
+PC-LAG-003    Lager        2025-08-10 09:00         71
+LAPTOP-HK-002 Huvudkontor  2025-08-30 10:00         51
+PC-MAL-003    Kontor Malmö 2025-09-05 11:00         45
+
+Detaljer: Lösenord äldre än 90 dagar
+------------------------------------
+displayName         samAccountName SenastBytt DagarSedan
+-----------         -------------- ---------- ----------
+Test User           test_user      2025-01-15        278
+Erik Olsson         eolsson        2025-04-01        202
+Nils Nilsson        nnils          2025-04-10        193
+Maria Berg          mberg          2025-05-10        163
+Johan Johansson     jjohan         2025-05-15        158
+Quentin Quentinsson qquentin       2025-05-20        153
+Johan Svensson      jsvensson      2025-05-25        148
+Fredrik Fredriksson ffred          2025-06-01        141
+Robert Robertsson   rrobert        2025-06-15        127
+Ynva Ynvasson       yynva          2025-06-20        122
+Maria Mariasson     mmaria         2025-07-01        111
+
+Användare per avdelning
+-----------------------------
+Avdelning  Antal
+---------  -----
+Finance        5
+HR             3
+IT            10
+Management     3
+Operations     5
+Sales          5
+
+(Rapport skapad av George i filen ad_audit_report.ps1)
